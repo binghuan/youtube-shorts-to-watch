@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "YouTube Shorts to Watch",
   "description": "Automatically redirects YouTube Shorts to regular YouTube watch page",
-  "version": "1.0",
+  "version": "1.1",
   "permissions": [
     "declarativeNetRequest"
   ],
@@ -18,6 +18,13 @@
       }
     ]
   },
+  "content_scripts": [
+    {
+      "matches": ["*://www.youtube.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_start"
+    }
+  ],
   "icons": {
     "48": "icon48.png",
     "128": "icon128.png"
