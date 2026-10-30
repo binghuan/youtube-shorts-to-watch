@@ -1,5 +1,11 @@
 # YouTube Shorts to Watch
 
+## Feature overview
+
+![youtube-shorts-to-watch — feature flow diagram](README-assets/project-preview.svg)
+
+Conceptual feature flow based on this repository; this is a documentation diagram, not an application screenshot.
+
 A Chrome extension that automatically redirects YouTube Shorts URLs to regular YouTube watch page.
 
 ## What it does
